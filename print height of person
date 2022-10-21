@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<math.h>
+
+int main()
+{
+  const float Ankit=157.67;
+    printf("Heights of Ankit is :%f",Ankit);
+    scanf("%f",&Ankit);
+    return 0;
+    }
+  
