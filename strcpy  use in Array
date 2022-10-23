@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{ 
+  char ch1[20]={'A', 'N', 'K', 'I', 'T','\0'};
+  char ch2[20]={'A','S','H', 'I', 'S','H','\0'};
+  char ch3[20]={'D', 'I', 'V','Y', 'A', 'N','S', 'H', '\0'};
+strcpy(ch2, ch3); 
+  printf("value of third string is:%s",ch3);
+}
