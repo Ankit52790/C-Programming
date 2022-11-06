@@ -1,0 +1,19 @@
+/*
+ Defining array in C */
+#include<stdio.h>
+   main()
+{
+ int a[10]; //1
+for (int i=0;i<10;i++) 
+{
+  a[i]=i;
+}
+printarary (a);
+}
+ void printaray(int a[]) 
+{
+ for(int i=0;i<10;i++)
+{
+    printf("value in the array %d\n",a[i]);
+    }
+}
