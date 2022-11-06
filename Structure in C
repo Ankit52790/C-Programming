@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<string.h>
+struct patient_hospital_detail
+{
+ int hospital_id;
+char hospital_name[30];
+}
+strut patient_detail
+{
+int id;
+char name[20];
+struct patient_Hospital_detail hpl_data;
+}
+pts_data;
+ int main() 
+{
+ struct patient_detail pts_data={ 2,"Abhay","ABCHospital"};
+
+printf("Id is :%d\n",pts_data.id);
+    printf("Name is :%d\n",pts_data.name);
+    printf("Hospital Id is :%d\n",pts_data.hpl.data.Hospital.id);
+    printf("Hospital Name is :%s\n",pts_data.clg_data.Hospital_name);
+    
+    return 0;
+}
