@@ -1,0 +1,33 @@
+/*#include<stdio.h>
+#include<string.h>
+int main()
+{ 
+  char ch1[20]={'A', 'N', 'K', 'I', 'T', 'A', 'N', 'r', 'l','d', '\0'};
+  char ch2[20];
+strcpy(ch2, ch1); 
+  printf("value of second string is:%s",ch2);
+}*/
+#include <stdio.h>
+long addTwoNumbers(long *, long *);
+ 
+int main()
+{
+   long fno, sno, sum;
+   
+   printf("\n\n Pointer : Add two numbers using call by reference:\n"); 
+   printf("-------------------------------------------------------\n");   
+ 
+   printf(" Input the first number : ");
+   scanf("%ld", &fno);
+   printf(" Input the second  number : ");
+   scanf("%ld", &sno);   
+   sum = addTwoNumbers(&fno, &sno);
+   printf(" The sum of %ld and %ld  is %ld\n\n", fno, sno, sum);
+   return 0;
+}
+long addTwoNumbers(long *n1, long *n2) 
+{
+   long sum;
+   sum = *n1 + *n2;
+   return sum;
+}
