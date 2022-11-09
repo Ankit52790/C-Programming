@@ -1,0 +1,36 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{ 
+  printf("\n%f",ceil(2.6));
+ printf("\n%f",ceil(2.3));
+printf("\n%f",ceil(4.6));
+printf("\n%f",ceil(5.3));
+printf("\n%f",ceil(6.3));
+ printf("\n%f",floor(4.6));
+ printf("\n%f",floor(4.2));
+printf("\n%f",floor(5.4));
+printf("\n%f",floor(6.6));
+printf("\n%f",floor(7.6));
+printf("\n%f",floor(8.7));
+ printf("\n%f",sqrt(23));
+ printf("\n%f",sqrt(38));
+printf("\n%f",sqrt(46));
+printf("\n%f",sqrt(56));
+ printf("\n%f",sqrt(66));
+ printf("\n%f",sqrt(11));
+ printf("\n%f",pow(3,4));
+printf("\n%f",pow(5,6));
+  printf("\n%f",pow(2,3));
+printf("\n%f",pow(5,3));
+ printf("\n%f",pow(3,3));
+printf("\n%d",abs(-11));
+ printf("\n%d",abs(-11));
+printf("\n%d",abs(-20));
+printf("\n%d",abs(-30));
+printf("\n%d",abs(-40));
+printf("\n%d",abs(-50));
+printf("\n%d",abs(-60));
+
+ return 0;
+}
