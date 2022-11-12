@@ -1,0 +1,36 @@
+#include<stdio.h>
+int main()
+{
+    int AT[10], BT[10], CT[10], WT[10], TAT[10], i, n, sum = 0;
+    printf("Enter number of process:");
+    scanf("%d", &n);
+    printf("Enter the arival time in increasing order:");
+    for (i = 0; i < n; i++)
+    {
+        scanf("%d", &AT[i]);
+    }
+    printf("Enter the burst time:");
+    for (i = 0; i < n; i++)
+    {
+        scanf("%d", &BT[i]);
+    }
+    for (i = 0; i < n; i++){
+        sum = sum + BT[i];
+        CT[i] = sum;
+        printf("completion time is %d", CT[i]);
+    }
+
+    printf("Turn around time is:");
+    for (i = 0; i < n; i++)
+    {
+        TAT[i] = CT[i] - AT[i];
+        printf("&d\n", TAT[i]);
+    }
+    printf("waiting time is:");
+    for (i = 0; i < n; i++)
+    {
+        WT[i] = TAT[i] - BT[i];
+        printf("%d", WT[i]);
+    }
+    return 0;
+}
