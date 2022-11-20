@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<string.h>
+struct patients
+{
+  int id;
+char name[50];
+float salary;
+} d1,d2,d3,d4,d5;
+int main() 
+{
+d1. id=201;
+strcpy(d1.name;"Ankit");
+d2. id=301;
+strcpy (d2.name,"Ashish ") ;
+d3. id=401;
+strcpy (d3.name,"Abiak ") ;
+d4. id=501;
+strcpy (d4.name,"Divyansh ") ;
+d5. id=601;
+strcpy (d6.name,"Divyansh ");
+printf("");
+    return 0;
+}
