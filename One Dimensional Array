@@ -1,0 +1,39 @@
+#include<stdio.h>
+ int main()
+{
+    int size, i, A[50], B[50];
+    int add[10], sub[10], mul[10], mod[10];
+    float div[10];
+    printf("enter array size:\n");
+    scanf("%d", &size);
+    printf("enter elements of 1st array:\n");
+    for(i = 0; i < size; i++)
+{
+       scanf("%d", &A[i]);
+    } 
+   printf("enter the elements of 2nd array:\n");
+    for(i = 0; i < size; i ++)
+{ 
+      scanf("%d", &B[i]);
+    }
+    for(i = 0; i < size; i ++)
+{ 
+      add [i]= A[i] + B[i];
+       sub [i]= A[i] - B[i];
+       mul [i]= A[i] * B[i];
+       div [i] = A[i] / B[i];
+       mod [i] = A[i] % B[i];
+    }
+    printf("\n add\t sub\t Mul\t Div\t Mod\n");
+
+    printf("------------------------------------\n");
+    for(i = 0; i <size; i++)
+{
+       printf("\n%d\t ", add[i]);
+       printf("%d \t ", sub[i]);
+       printf("%d \t ", mul[i]);
+       printf("%.2f\t ", div[i]); 
+      printf("%d \t ", mod[i]);
+} 
+   return 0;
+ }
