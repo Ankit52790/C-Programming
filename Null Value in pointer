@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<string.h>
+
+void main()
+{ 
+  char s[7]="Allahabad";
+  int i=0;
+int count=0;
+while (s[i]!=NULL) 
+{
+  if(s[i]=='a'||s[i]=='e'||s[i]=='i'||s[i]=='o'||s[i]=='u')
+{ 
+ count++;
+}
+ i++;
+ } 
+printf("%d",count);
+ return 0;
+}
