@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main ()
+{
+int no,c,rev=0;
+printf("enter the no");
+scanf("%d",&no);
+
+while(no!=0)
+{
+c=no%10;
+no=no/10;
+rev=rev*10+c;
+}
+printf("%d",rev);
+
+if(rev==no)
+printf("\npalindrome");
+else
+printf("\nnot palindrome");
+}
