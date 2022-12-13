@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+int main()
+{
+int age;
+printf("Enter your age");
+scanf("%d",&age);
+ switch (age)
+{
+case 17:
+printf("The age is 17");
+break;
+case 18:
+printf("The age is 18");
+break;
+default:
+printf("The age not 17 ,18");
+break;
+}
+
+return 0;
+}
+    
